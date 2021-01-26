@@ -12,5 +12,6 @@ Route::view('/', 'layout/master');
 // Route::view('/', 'welcome');
 // jika ingin menampilkan view saja 
 Route::view('/contact', 'contact');
+Route::view('/documentation', 'documentation');
 
 Route::view('/about', 'about');

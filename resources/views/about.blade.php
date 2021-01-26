@@ -1,13 +1,9 @@
-<html lang="en">
+@extends('layout.master')
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
 
-<body>
-  <h1> Ini adalah Page About </h1>
-</body>
+@section('content')
 
-</html>
+<h3>About</h3>
+
+
+@endsection
